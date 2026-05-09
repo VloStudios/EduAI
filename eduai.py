@@ -15,7 +15,7 @@ from PIL import Image as PILImage
 
 USER_DATA_FILE = "user_data.json"
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
-HEADERS = {"Authorization": "Bearer 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"}
+HEADERS = {"Authorization": "Bearer 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"} # invalid token
 
 
 def save_user_email(email):
